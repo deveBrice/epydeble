@@ -10,6 +10,14 @@ epydeble is a project which goal is to display nearby bluetooth devices on a web
 
 ## how to
 
+The code currently provides two simple scripts:
+
+	- `scan.py`: scan devices and store them in a json file with their ids, names, and RSSI.
+	- `app.py`: simple Flask app
+
+An devices.json file is provided as an example.
+The bluetooth code in `blscan` uses PyBluez library.
+
 ## Installation
 - py -m pip install -r requirements.txt
   If issues with pyblues:
@@ -29,10 +37,10 @@ if __name__ == "__main__":
 
 - run command py -m pip app.py 
 
-The code currently provides two simple scripts:
+## Difficulty
 
-	- `scan.py`: scan devices and store them in a json file with their ids, names, and RSSI.
-	- `app.py`: simple Flask app
+problem with the download of pyblues
 
-An devices.json file is provided as an example.
-The bluetooth code in `blscan` uses PyBluez library.
+## Search
+- Visual studio code 2017 for pybluez
+- Download of bootstrap for the front side
