@@ -13,6 +13,7 @@ epydeble is a project which goal is to display nearby bluetooth devices on a web
 ## Installation
 - py -m pip install -r requirements.txt
 - py -m pip install -r geoip2
+  
   If issues with pyblues:
 - Install visual studio code 2017 and choose visual build tools 2017
 - clone this repository: https://github.com/pybluez/pybluez
