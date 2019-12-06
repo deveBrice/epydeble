@@ -43,4 +43,4 @@ problem with the download of pyblues
 
 ## Search
 - Visual studio code 2017 for pybluez
-- Download of bootstrap for the front side
+- Download of bootstrap for the front side.
