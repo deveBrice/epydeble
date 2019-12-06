@@ -3,6 +3,12 @@ import json
 
 app = Flask(__name__)
 
+baseDeDonnees = sqlite3.connect('devices.db')
+curseur = baseDeDonnees.cursor()
+curseur.execute("CREATE TABLE Devices (id INTEGER PRIMARY KEY AUTOINCREMENT, nom TEXT NOT NULL, datetime TEXT NOT NULL, localisation TEXT NOT NULL)")
+baseDeDonnees.commit()
+baseDeDonnees.close()
+
 @app.route('/')
 def home():
   return 'Bienvenue !'
